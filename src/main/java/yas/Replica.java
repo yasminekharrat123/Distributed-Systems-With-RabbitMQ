@@ -14,7 +14,6 @@ public class Replica {
     private static final String READ_REQUEST_EXCHANGE_NAME = "ReaderEXCHANGE";
     private static final String DELIVERY_EXCHANGE_NAME = "DeliveryEXCHANGE";
     private static String replicaNumber;
-    private static String fileName;
     private static final String FILES_FOLDER_PATH = "src/main/java/yas/files";
 
     private static FileService fileService;
